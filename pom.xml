@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.atul</groupId>
-    <artifactId>spring-5-aecipe-aysql-app</artifactId>
+    <artifactId>spring-5-recipe-mysql-app</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>spring5-recipe-app</name>
     <description>Recipe application</description>
@@ -75,6 +75,11 @@
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-validator</artifactId>
             <version>6.1.6.Final</version>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
         </dependency>
 
     </dependencies>
