@@ -1,14 +1,17 @@
 spring:
+#  profiles: conta
   datasource:
+    driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/sfg_dev
     username: sfg_dev_user
     password: atul
+
   jpa:
     hibernate:
       ddl-auto: validate
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
     database: mysql
-    show-sql: true
+#    show-sql: true
 #    properties:
 #      javax:
 #        persistence:
